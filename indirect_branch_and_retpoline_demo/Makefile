@@ -14,6 +14,9 @@ $(NAME): $(OBJECTS)
 
 $(NAME2): $(OBJECTS)
 	$(CC) $(CFLAGS2) $(OBJECTS)
+	
+$(NAME3): $(OBJECTS)
+	$(CC) $(CFLAGS3) $(OBJECTS)
 
 clean:
 	rm *.o $(NAME)
