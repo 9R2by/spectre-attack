@@ -8,6 +8,7 @@ CFLAGS3 = -O0 -S -fverbose-asm -fno-asynchronous-unwind-tables -fno-dwarf2-cfi-a
 #CFLAGS3 good for showing the code to others
 NAME = indirect_branches
 NAME2 = retpoline
+NAME3 = retpoline_clean
 
 $(NAME): $(OBJECTS)
 	$(CC) $(CFLAGS) $(OBJECTS)
